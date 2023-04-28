@@ -12,7 +12,6 @@ public class UserRegistryImplTest {
     public void testUserRegistry() {
         User user = new User("john", "doe@gamil.com", "23456543", UserRole.STUDENT);
         User teacher = new User("joe", "atkin@gamil.com", "09876", UserRole.TEACHER);
-        User user1 = user;
 
         UserRegistryImpl userRegistry = new UserRegistryImpl();
         userRegistry.addPrototype(UserRole.STUDENT, user);
