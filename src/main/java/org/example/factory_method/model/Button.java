@@ -1,4 +1,4 @@
-package org.example.abstract_factory.model;
+package org.example.factory_method.model;
 
 public abstract class Button {
     public abstract void render();

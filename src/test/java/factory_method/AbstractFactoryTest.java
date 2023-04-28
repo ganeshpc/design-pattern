@@ -1,11 +1,11 @@
-package abstract_factory;
+package factory_method;
 
-import org.example.abstract_factory.ButtonFactory;
-import org.example.abstract_factory.PrimaryButtonFactory;
-import org.example.abstract_factory.RoundButtonFactory;
-import org.example.abstract_factory.model.Button;
-import org.example.abstract_factory.model.PrimaryButton;
-import org.example.abstract_factory.model.RoundButton;
+import org.example.factory_method.ButtonFactory;
+import org.example.factory_method.PrimaryButtonFactory;
+import org.example.factory_method.RoundButtonFactory;
+import org.example.factory_method.model.Button;
+import org.example.factory_method.model.PrimaryButton;
+import org.example.factory_method.model.RoundButton;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

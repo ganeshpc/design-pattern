@@ -1,7 +1,7 @@
-package org.example.abstract_factory;
+package org.example.factory_method;
 
-import org.example.abstract_factory.model.Button;
-import org.example.abstract_factory.model.RoundButton;
+import org.example.factory_method.model.Button;
+import org.example.factory_method.model.RoundButton;
 
 public class RoundButtonFactory extends ButtonFactory{
     @Override
