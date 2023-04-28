@@ -6,8 +6,6 @@ public class DatabaseDriverFactory {
             case MY_SQL -> new MySqlDatabaseDriver();
 
             case ORACLE -> new OracleDatabaseDriver();
-
-            default -> null;
         };
     }
 }
