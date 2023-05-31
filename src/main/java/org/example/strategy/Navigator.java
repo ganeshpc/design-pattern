@@ -1,7 +1,7 @@
 package org.example.strategy;
 
 public class Navigator {
-    private NavigationStrategy navigationStrategy;
+    private final NavigationStrategy navigationStrategy;
 
     public Navigator(NavigationStrategy navigationStrategy) {
         this.navigationStrategy = navigationStrategy;

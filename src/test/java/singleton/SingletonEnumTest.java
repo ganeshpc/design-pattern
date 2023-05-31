@@ -19,4 +19,5 @@ public class SingletonEnumTest {
 
         Assertions.assertSame(enumSingleton1, enumSingleton2);
     }
+
 }
